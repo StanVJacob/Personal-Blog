@@ -1,0 +1,9 @@
+.header{
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw 20vw;
+    grid-template-rows: 100px;
+    grid-template-areas: "h1" "h2" "h3" "h4" "h5";
+    background: #F8F0E3;
+    border: 1px solid gray;
+    grid-area: hd;
+}

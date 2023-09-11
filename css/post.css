@@ -1,0 +1,88 @@
+figcaption {
+    color: gray;
+    font-style: italic;
+    padding: 2px;
+    text-align: left;
+}
+
+button {
+    border:none;
+    border-radius:10px;
+    padding: 5px;
+    margin: 10px;
+}
+
+
+.container{
+    display:grid;
+    gap: 10px 10px;
+    grid-template-columns:99vw;
+    grid-template-rows: 200px 1650px 200px 420px 25px;
+    grid-template-areas:
+    "hd"
+    "b1" 
+    "b2" 
+    "b3"
+    "ft";
+}
+
+.box1{
+    border: 3px solid gray;
+    background: white;
+}
+
+.box2{
+    background: gainsboro;
+    text-align: center
+}
+
+.box3{
+    background: white;
+    padding: 10px;
+}
+
+.blog1{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    padding: 10px;
+    padding-left: 30px;
+    grid-area: b1;
+}
+
+.blog2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    grid-area: b2;
+}
+
+
+@media(min-width:650px){
+    .container{
+        display:grid;
+        gap: 10px 10px;
+        grid-template-columns:79vw 19vw;
+        grid-template-rows: 200px 300px 1000px 25px;
+        grid-template-areas:
+        "hd hd"
+        "b1 b2" 
+        "b1 b3"
+        "ft ft";
+    }
+}
+
+@media(min-width:1000px){
+    .container{
+        display:grid;
+        gap: 10px 10px;
+        grid-template-columns:79vw 19vw;
+        grid-template-rows: 140px 250px 750px 25px;
+        grid-template-areas:
+        "hd hd"
+        "b1 b2" 
+        "b1 b3"
+        "ft ft";
+    }
+}

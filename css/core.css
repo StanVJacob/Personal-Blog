@@ -1,0 +1,44 @@
+body{
+    background-color: #444;
+}
+
+h6 {
+    font-family: 'Muli', sans-serif;
+    color: rgba(73, 67, 67, 0.397);
+}
+  
+h1,h2,h3 {
+    font-family: 'Quicksand', sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+}
+  
+h4 {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(58, 46, 182, 0.8);
+}
+
+#field{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+#center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}

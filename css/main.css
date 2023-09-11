@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@import 'core.css';
+@import 'header.css';
+@import 'footer.css';
+@import 'home.css';
+@import 'post.css';
